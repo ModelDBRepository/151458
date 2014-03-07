@@ -109,7 +109,7 @@ condition, and "data_c_pre_spine1_caTblock.txt" means responses evoked
 presynaptic input at distal spine at up-state under the blocking
 T-type calcium channels.
 
-Similarly, in the case of "spine0_pren005_DAp040.txt",
+Similarly, in the case of "spine0_pren005_DAp040.txt",ol
 "n" and "p" before the numbers are negative and positive timing of
 inputs.  The numbers are the time difference (ms) from a postsynaptic
 spike.  That is, "spine0_pren005_DAp040.txt" means responses to 5 ms
@@ -119,4 +119,11 @@ postsynaptic spike at a proximal spine.
 This text is written by Takashi Nakano
 Nov 6th, 2013
 Updated Nov 22nd, 2013
+
+20140307 Model updated to run with a new version of NEURON whose new
+compiler insists that the number of arguments in function calls match
+the number of arguments in the definition of the function. For this
+reason aip3, bip3 were removed from ER.mod jip3 function calls so that
+the calls match the number of arguments (8) in the function jip3
+definition.  This did not change the function of the code.
 </pre></html>
