@@ -127,6 +127,8 @@ This text is written by Takashi Nakano
 Nov 6th, 2013  
 Updated Nov 22nd, 2013
 
+---
+
 20140307 Model updated to run with a new version of NEURON whose new  
 compiler insists that the number of arguments in function calls match  
 the number of arguments in the definition of the function. For this  
@@ -134,6 +136,4 @@ reason aip3, bip3 were removed from ER.mod jip3 function calls so that
 the calls match the number of arguments (8) in the function jip3  
 definition. This did not change the function of the code.
 
----
-
-2025-07-09: Converted README to Markdown.
+20250709 Converted README to Markdown.
